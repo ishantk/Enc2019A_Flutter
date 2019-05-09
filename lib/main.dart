@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'signup.dart';
+import 'listtilepage.dart';
+import 'bottomnav.dart';
 
 void main() => runApp(new MyApp());
 
@@ -38,7 +40,9 @@ class MyApp extends StatelessWidget {
             primaryColorDark: Colors.lightGreen,
             accentColor: Colors.greenAccent
         ),
-        home: new SignUpPage()
+        //home: new SignUpPage()
+        //home: new ListTilePage()
+        home: new BottomNavPage()
     );
 
   }
